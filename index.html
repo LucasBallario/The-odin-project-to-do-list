@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+</head>
+<body>
+
+    <div class="app-container">
+
+      <div class="add-section">
+
+        <h1>Add a new task</h1>
+
+        <form id="task-form">
+            <label for="taskName">Task name</label>
+            <input id="taskName" class="title" type="text" required>
+
+            <label for="description">Task description</label>
+            <input id="description" class="description" type="text">
+
+            <label for="duedate">Date</label>
+            <input id="duedate" class="date" type="date" required>
+
+            <button type="submit" id="add-btn">Add task</button>
+        </form>  
+      </div>  
+
+      <div id="task-display">
+        <h2>Tasks to do</h2>
+      </div>
+
+    </div>
+    
+</body>
+</html>
